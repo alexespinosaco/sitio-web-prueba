@@ -1,0 +1,14 @@
+project:
+  type: website
+
+website:
+  title: "Sito web de prueba"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Inicio
+        icon: home
+      - href: about/index.qmd
+        text: About
+
+format: html
